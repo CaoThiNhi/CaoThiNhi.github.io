@@ -1,0 +1,43 @@
+body {
+	background-image: url("../img/backgroud.jpg");
+}
+img {
+	height: 200px;
+	width: 250px;
+	border-radius:50%;
+	
+}
+
+a:link {
+  color : black;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover {
+	color:black;
+}
+a:active{
+	color: green;
+}
+
+h1 {
+	text-align: center;
+	color: red;
+	font-size: 5em;
+}
+
+#lienket {
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+p {
+	font-size: 2em;
+	color: green;
+	text-align: justify;
+
+}
