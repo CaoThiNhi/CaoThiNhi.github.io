@@ -1,0 +1,12 @@
+.sp:hover {
+ border-radius: 3%;
+ border-style: double;
+}
+#avatar {
+border-radius: 50%;
+}
+h1 {
+	text-align: center;;
+	color: green;
+	font-size: 80px;
+}
