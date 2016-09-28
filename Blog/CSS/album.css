@@ -1,0 +1,26 @@
+h2 {
+	color: green;
+	font-size: 30px;
+	text-align: center;
+}
+
+img {
+	width: 330px;
+
+}
+
+.picture {
+	border:2px solid #dddddd;
+	border-width: 5px;
+	float: left;
+	width: 33%;
+	max-height: 390px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+img.hover:hover{
+	border-color: orange;
+	transform: scale(1.25,1.25);
+}
