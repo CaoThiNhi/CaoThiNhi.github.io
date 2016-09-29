@@ -22,24 +22,16 @@ img {
 	margin: 0px;
 	overflow: hidden;
 }
-.hover .pt img {
-	opacity: 1;
-}
 
-.hover .pt img:hover{
-	opacity: 0,5;
-	transform: scale(1.25,1.25);
-}
 
-/
-/*img .hover:hover{
-	border-color: orange;
-	transform: scale(1.25,1.25);
+.pt img:hover{
 	
-}*/
-.hover {
-	overflow: auto;
+	transform: scale(1.25,1.25);
+	opacity: 0.5;
+
 }
+
+
 #menu {
 	position: absolute;
  	left: 110px;
@@ -61,4 +53,7 @@ img {
 	position: fixed;
 	right: 60px;
 	bottom: 3px;
+}
+.hover {
+	overflow: hidden;
 }
