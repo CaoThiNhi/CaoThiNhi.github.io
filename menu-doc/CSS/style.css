@@ -28,20 +28,25 @@ h1 {
 	text-align: center;
 	color: green;
 	font-size: 5em;
+	margin-top: 170px;
 }
 #main-menu{
-	text-align: center;
-	background-color: #97b9de;
-	padding: 10px;
+	
+	
+	padding: 5px;
 	position: relative;
+
+	text-align: left;
+	background-color: unset;
 }
+
 
 #main-menu a{
 	font-size: 20px;
 	color: #737373;
 	text-decoration:none;
-	padding: 30px;
-
+	padding: 0px;
+	display: block;
 }
 
 #main-menu a:hover,#main-menu a.active{
@@ -60,6 +65,12 @@ h1 {
 #main-menu > a:first-child >img {
 	max-width: 140px;
 	border-radius: 50%;
+}
+
+#menu {
+	position: absolute;
+ 	left: 110px;
+ 	top: 50px;
 }
 .picture {
 	border:1px solid #dddddd;

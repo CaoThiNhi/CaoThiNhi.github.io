@@ -2,13 +2,15 @@ h2 {
 	color: green;
 	font-size: 30px;
 	text-align: center;
-	margin-top: 95px;
+	margin-top: 170px;
 }
 
 img {
 	width: 330px;
+	
 
 }
+
 
 .pt {
 	border:2px solid #dddddd;
@@ -20,11 +22,21 @@ img {
 	margin: 0px;
 	overflow: hidden;
 }
+.hover .pt img {
+	opacity: 1;
+}
 
-img.hover:hover{
-	border-color: orange;
+.hover .pt img:hover{
+	opacity: 0,5;
 	transform: scale(1.25,1.25);
 }
+
+/
+/*img .hover:hover{
+	border-color: orange;
+	transform: scale(1.25,1.25);
+	
+}*/
 .hover {
 	overflow: auto;
 }
