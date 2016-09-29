@@ -1,0 +1,36 @@
+.box {
+	border:1px solid #dddddd;
+	border-top-width: 5px;
+	float: left;
+	width: 33.333333333%;
+	padding: 15px;
+}
+.info,.company{
+	border-color: #76a7fa;
+}
+.company span{
+	color: #76a7fa;
+}
+.info span {
+	color: #76a7fa;
+}
+.contact {
+	border-color: #f9b256;
+}
+.contact span {
+	color: #f9b256;
+}
+
+
+.main-menu {
+	text-align: center;
+}
+
+#main-content {
+	overflow: auto;
+}
+h2 {
+	
+	font-size: 30px;
+	text-align: center;
+}

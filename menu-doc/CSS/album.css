@@ -1,0 +1,52 @@
+h2 {
+	color: green;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 95px;
+}
+
+img {
+	width: 330px;
+
+}
+
+.pt {
+	border:2px solid #dddddd;
+	border-width: 5px;
+	float: left;
+	width: 33%;
+	max-height: 390px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+img.hover:hover{
+	border-color: orange;
+	transform: scale(1.25,1.25);
+}
+.hover {
+	overflow: auto;
+}
+#menu {
+	position: absolute;
+ 	left: 110px;
+ 	top: 50px;
+}
+
+#main-menu {
+	text-align: left;
+	background-color: unset;
+
+	}
+
+#icon {
+	max-height: 100%;
+	width: 86px;
+}
+
+#chat {
+	position: fixed;
+	right: 60px;
+	bottom: 3px;
+}

@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+img {
+	width: 330px;
+
+}
+
+img:hover {
+	border-radius:;
+}
+
+#my-picture{
+	overflow: auto;
+}
+/*
+.box1 {
+	border:1px solid #dddddd;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	float: left;
+	width: 20%;
+	padding: 15px;
+}
+*/
+
+h1 {
+	text-align: center;
+	color: green;
+	font-size: 5em;
+}
+#main-menu{
+	text-align: center;
+	background-color: #97b9de;
+	padding: 10px;
+	position: relative;
+}
+
+#main-menu a{
+	font-size: 20px;
+	color: #737373;
+	text-decoration:none;
+	padding: 30px;
+
+}
+
+#main-menu a:hover,#main-menu a.active{
+	color: black;
+}
+
+#main-menu > a:first-child {
+	padding: 2px;
+	background-color: #D0D8DD;
+	border-radius: 50%;
+	position: absolute;
+	left: 17px;
+	top: -111px;
+}
+
+#main-menu > a:first-child >img {
+	max-width: 140px;
+	border-radius: 50%;
+}
+.picture {
+	border:1px solid #dddddd;
+	border-top-width: 0;
+	float: left;
+	width: 33%;
+	padding: 0px;
+	margin: 0px;
+
+}
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+
+}
+
+
+body {
+	background-image: url(../img/background.png);
+}
+
+#footer {
+	text-align: center;
+	margin:0;
+	padding: 30px 0px 15px 0px;
+	border-top: 1px solid #c5c5c5;
+
+}
+
+#chat {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+
+#icon {
+	max-height: 100%;
+	width: 40px;
+}
