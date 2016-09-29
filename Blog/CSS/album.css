@@ -9,7 +9,7 @@ img {
 
 }
 
-.picture {
+.pt {
 	border:2px solid #dddddd;
 	border-width: 5px;
 	float: left;
@@ -23,4 +23,9 @@ img {
 img.hover:hover{
 	border-color: orange;
 	transform: scale(1.25,1.25);
+}
+.hover {
+	overflow: auto;
+	border-bottom: 1px solid #c5c5c5;
+	padding-bottom: 60px;
 }

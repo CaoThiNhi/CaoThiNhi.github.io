@@ -25,3 +25,16 @@
 .main-menu {
 	text-align: center;
 }
+
+#main-content {
+	overflow: auto;
+	
+	border-bottom: 1px solid #c5c5c5;
+	padding-bottom: 60px;
+}
+h2 {
+	
+	font-size: 30px;
+	text-align: center;
+	
+}
