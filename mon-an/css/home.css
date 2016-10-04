@@ -1,0 +1,217 @@
+* {
+	box-sizing: border-box;
+}
+
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+
+}
+
+#main-menu {
+	
+	font-size: 25px;
+	background-color: #d30f30;
+	text-align: center;
+	margin-top: 0px;
+	padding-top:15px;
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+
+#main-menu a{
+	color: white;
+	text-decoration:none;
+	padding-bottom: 15px;
+	margin: 20px;
+}
+#main-menu a:hover,#main-menu a.active{
+	color: red;
+	background-color: white;
+	display: inline;
+}
+
+.picture {
+float :left;
+max-width: 1000px;
+margin-top: 30px;
+margin-bottom: 15px;
+overflow: hidden;
+}
+
+.pc1 {
+	/*display:inline-block;*/
+	float: left;
+	width: 20%;
+}
+.pc2 {
+	/*display:inline-block;*/
+	float: left;
+	width: 58%;
+}
+.pc3 {
+	/*display:inline-block;*/
+	float: left;
+	width: 20%;
+}
+
+
+#left {
+	/*position: relative;;*/
+	display:inline-block;
+	width: 20%;
+	height: 400px;
+
+
+}
+#center {
+	overflow: hidden;
+	
+	width: 58%;
+	height: 400px;
+	
+}
+#right {
+  /*position: absolute;
+	right: 10px;*/
+	display:inline-block;
+	width: 20%;
+	height: 400px;
+	
+
+}
+
+#baner {
+	height: 400px;
+	width: 580px;
+}
+
+h2 {
+	margin-right: 30px;
+	background-color: #d30f30;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	padding-top:15px;
+	padding-bottom: 15px;
+	
+
+	}
+#anh01 {
+float: left;
+}
+
+#anh06 {
+	float: right;
+}
+#anh08 {
+	float: right;
+}
+
+#dv1 {
+	width: 60%;
+	float: left;
+	
+}
+#pc1 {
+	width: 40%;
+	float: left;
+	}
+
+#pc2 img {
+	width: 40%;
+	float: left;
+}
+#dv2 p {
+	width: 60%;
+	float: left;
+	
+	
+}
+
+#pc3 img {
+	width: 40%;
+	float: left;
+}
+#dv3 {
+	width: 60%;
+	float: left;
+
+	
+}
+#pc4 img {
+	width: 40%;
+	float: left;
+}
+#dv4 {
+	width: 60%;
+	float: left;
+
+	
+}
+
+#pc6 {
+	background-color: #d30f30;
+}
+
+h6 {
+	color: #d30f30;
+
+}
+ul {
+	list-style: inside none disc;
+}
+.doanvan {
+	float: left;
+}
+
+p {
+	text-indent: 30px;
+}
+
+
+
+
+#menu ul{
+list-style: none;
+font-size: 25px;
+padding: 0;
+}
+ 
+#menu ul li{
+float:left;
+position:relative;
+}
+ 
+#menu ul a{
+text-decoration:none;
+color:white;
+display:block;
+/*font-weight:bold;*/
+padding:14px 39px;
+background:#d30f30;
+}
+ 
+#menu ul a:hover{
+background:white;
+color: #d30f30;
+}
+
+/*#menu ul a.active {
+background:white;
+color: #d30f30;
+}*/ 
+//CSS Tạo Menu Cấp 2
+#menu li ul a{
+background:#444;
+}
+ 
+#menu li ul{
+position:absolute;
+display:none;
+width:200px;
+}
+ 
+#menu li:hover ul{
+display:block;
+}

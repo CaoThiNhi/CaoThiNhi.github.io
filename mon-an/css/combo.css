@@ -1,0 +1,18 @@
+.pccombo {
+	width: 400px;
+	height: 100%;
+}
+.combo {
+	display: inline-block;
+	width: 50%;
+	padding: 25px;
+	float: left;
+}
+p {
+	text-align: center;
+	text-transform: unset;
+}
+
+img:hover {
+	transform: scale(1.2,1.2);
+}
