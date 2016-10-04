@@ -43,6 +43,7 @@ overflow: hidden;
 	/*display:inline-block;*/
 	float: left;
 	width: 20%;
+	overflow: hidden;
 }
 .pc2 {
 	/*display:inline-block;*/
@@ -53,6 +54,7 @@ overflow: hidden;
 	/*display:inline-block;*/
 	float: left;
 	width: 20%;
+	overflow: hidden;
 }
 
 
@@ -61,6 +63,7 @@ overflow: hidden;
 	display:inline-block;
 	width: 20%;
 	height: 400px;
+	overflow: hidden;
 
 
 }
@@ -77,6 +80,7 @@ overflow: hidden;
 	display:inline-block;
 	width: 20%;
 	height: 400px;
+	overflow: hidden;
 	
 
 }
