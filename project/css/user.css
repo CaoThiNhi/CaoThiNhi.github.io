@@ -1,0 +1,25 @@
+.avata{
+	
+}
+.tm {
+	background-color: white;
+}
+.list-group-item {
+	border:none;
+}
+.img-responsive {
+
+    padding-top: 20%;
+}
+.ten {
+	padding-top: 10%;
+}
+.label2 {
+	margin-top: 20px;
+}
+.form-horizontal .control-label {
+	text-align: left;
+}
+#tt {
+	text-align: center;
+}

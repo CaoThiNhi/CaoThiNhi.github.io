@@ -1,0 +1,371 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+header {
+ background-image: url('../img/bg.jpg');
+ background-size: cover;
+ 
+}
+.navbar-default {
+    background-color:rgba(0,0,0,.0001) ;
+    border-color:rgba(0,0,0,.0001); 
+    color: wheat;
+}
+.nav {
+    padding-left: 60px;
+   
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: rgba(0,0,0,.0001);
+    padding-top: 0px; 
+    padding-bottom: 0px;
+  
+	
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 260px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+h3 {
+	font-size: 35px;
+}
+#textbanner{
+    color: wheat;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/*.navbar-right{
+    margin-right: 95px;
+}*/
+.btn .menu {
+	background-color: rgba(0,0,0,.0001) ;
+	
+}
+
+.active {
+    color: #fff;
+    background-color: #7ca054;
+    border-color: #7ca054;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+	font-family: GothamRounded;
+	margin-right: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-default {
+	color: white;
+    background-color: #56ab33;
+    border-color: #56ab33;
+    font-family: GothamRounded;
+    font-size: 20px;
+}
+.btn-default:hover{
+    color: #fff;
+    background-color: #7ca054;
+    border-color: #7ca054;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #56ab33;
+    border-color: #56ab33;
+    border-radius: 25px;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #7ca054;
+    border-color: #7ca054;
+}
+
+
+.container {
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+    overflow: hidden;
+
+}
+
+#Start {
+	padding-left: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    background-color: #56ab33;
+    border-color: #56ab33;
+}
+
+
+
+
+.center{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+}
+.col-sm-3 {
+    width: 30%;
+
+}
+.thumbnail{
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 3px rgba(0,0,0,.45);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #eee;
+}
+.row {
+    margin-right: -15px;
+    margin-left: 15px;
+}
+.text-center {
+    text-align: center;
+}
+.thumbnail a>img, .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+.btn2 {
+   
+    color: #fff;
+    background-color: #30a287;
+    border-color: #30a287;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 1.3333333;
+
+}
+
+.btn-group-lg>.btn, .btn-lg1 {
+    /*padding: 0px 0px;*/
+    font-size: 18px;
+    line-height: 1.3333333;
+    /*border-radius: 6px;*/
+}
+.thumbnail .bnt2:hover {
+    background-color: white;
+    border-color: #56ab33;
+}
+p {
+
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #3a464b;
+}
+b, strong {
+    font-weight: 900;
+    font-size: larger;
+}
+
+
+
+
+
+
+#band {
+    background: linear-gradient(180deg,#414e53 70%,#3a464b 30%);
+    
+}
+.p_info{
+    color: #f2f2f2;
+    font-family: fantasy;
+    font-size: 20px;
+}
+span {
+    font-size: 25px;
+    color: #84dc84;
+}
+.ip {
+    width: 320px;
+    height: 250px;
+}
+
+
+.reviewTitle{
+    text-align: center;
+}
+#span_tt {
+    color: green;
+}
+#span_rw {
+    color: #449884;
+}
+.icon2 {
+    width: 50px;
+    height: 50px;
+}
+.socialIcons{
+    text-align: center;
+}
+/*.fb {
+        background: #47639e;
+        color: white;
+}*/
+.icon_footer {
+    width: 80px;
+    height: 100%;
+}
+.label2 {
+background-color: #3a464b;
+color: white;
+}
+#learn {
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+.row {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #7ca054;
+    border-color: #7ca054;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #56ab33;
+    border-color: #56ab33;
+}
+.menu2 {
+    display: block;
+    color: #95a2a9;
+    font-size:18px;
+}
+.menu2:hover {
+    color: #a1b733;
+
+}
+.h2, h2{
+    display: inline;
+    font-size:20px;
+    color: #95a2a9;
+} 
+.h2:hover{
+    color: #a1b733;
+    text-decoration: none;
+}
+.lh{
+    color: #95a2a9;
+    /*float: left;*/
+    padding-left: 10px;
+    display: block;
+} 
+.lh:hover {
+    color: #a1b733;
+}
+.text {
+    color: #95a2a9;
+}
+.textlabel {
+    
+}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    background-image: none;
+    background-color: #56ab33;
+    border-color: #56ab33;
+    color: white;
+}
+.thumbnail_footer {
+    background-color: white;
+    border: 1px none white;
+    box-shadow: none;
+    padding: 0px;
+}
+.thumbnail>img.icon_footer2{
+    border-radius: 0px;
+}
+@media screen and (max-width: 500px){
+    h3 {
+    font-size: 35px;
+       }
+    .jumbotron p {
+    
+    font-size: 20px;
+       }
+    .container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 5px;
+    padding-left: 10px;
+    color: white;
+    }   
+    .nav {
+    padding-left: 0px;
+   
+        }
+    .nav .navbar-nav{
+            position: relative;
+    }
+    .navbar-header {
+            position: absolute;
+            right: 25px;
+            top: 35px;
+    }
+    #Start {
+    padding-left: 0px;
+            }
+    .navbar-nav>li>a {
+    padding-top: 0px;
+        }
+    .btn-primary {
+     display: block;
+     margin: 40px auto;
+        }
+
+    header{
+            box-shadow: 0 0 1000px 1000px rgba(0,0,0,.5) inset;
+            height: 450px;
+            background-position: -720px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+    }
+    
+}
+
+
+@media screen and (max-width: 770px){
+    .col-sm-3 {
+    width: 100%;
+   
+    padding-left: 0px;
+            }
+    .btn-primary {
+    display: block;
+    margin: 40px auto;
+    width: 70%;
+            }
+    .p_info{
+        font-size: 15px;
+}
+}
+
+@media screen and (max-width: 320px){
+.ip {
+width: 250px;
+height: 180px;
+    }
+}

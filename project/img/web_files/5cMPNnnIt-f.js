@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["81CFv"]); }
+
+__d("PrivacySelectorEvent",[],(function a(b,c,d,e,f,g){c.__markCompiled&&c.__markCompiled();f.exports={OPEN_MENU:"open_menu",CLOSE_MENU:"close_menu",MORE_OPTIONS:"more_options",CUSTOM_SAVE:"custom_save",CUSTOM_CANCEL:"custom_cancel",SELECT_EVERYONE:"select_everyone",SELECT_FRIENDS_OF_FRIENDS:"select_friends_of_friends",SELECT_FRIENDS:"select_friends",SELECT_FRIENDS_EXCEPT_ACQUIANTANCES:"select_friends_except_acquaintances",SELECT_ONLY_ME:"select_only_me",SELECT_CUSTOM:"select_custom",SELECT_FB_ONLY:"select_fb_only",SELECT_FRIENDLIST:"select_friendlist",SELECT_OTHER:"select_other"};}),null);

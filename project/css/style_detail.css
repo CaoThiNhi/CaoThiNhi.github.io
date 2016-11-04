@@ -1,0 +1,130 @@
+/*.con1{
+	background-image: url("../detail_img/front-end_fou.jpg");
+}
+.con2{
+	background-image: url("../detail_img/front-end_for.jpg");
+}
+.con3{
+	background-image: url("../detail_img/css_cross.png");
+}
+.con4{
+	background-image: url("../detail_img/web.jpg");
+}
+.con5{
+	background-image: url("../detail_img/unmasking.jpg");
+}
+.con6{
+	background-image: url("../detail_img/mobile.jpg");
+}
+.con7{
+	background-image: url("../detail_img/road1.jpg");
+}
+.con8{
+	background-image: url("../detail_img/road2.jpg");
+}
+.con9{
+	background-image: url("../detail_img/road3.jpg");
+}
+.con10{
+	background-image: url("../detail_img/try.jpg");
+}
+.con11{
+	background-image: url("../detail_img/return.jpg");
+}
+.con12{
+	background-image: url("../detail_img/nodejs.png");
+}
+.con13{
+	background-image: url("../detail_img/rb_try.jpg");
+}
+.con14{
+	background-image: url("../detail_img/rb_zombie.jpg");
+}
+.con15{
+	background-image: url("../detail_img/rb_zombie2.jpg");
+}
+.con16{
+	background-image: url("../detail_img/rb_bits.png");
+}
+.con17{
+	background-image: url("../detail_img/rb_test_zombie.jpg");
+}
+.con18{
+	background-image: url("../detail_img/rb_test_rspec.jpg");
+}
+.con19{
+	background-image: url("../detail_img/py_try.jpg");
+}
+.con20{
+	background-image: url("../detail_img/py_through.jpg");
+}
+.con21{
+	background-image: url("../detail_img/dotnet_try.jpg");
+}
+.con22{
+	background-image: url("../detail_img/dotnet_core.jpg");
+}
+.con23{
+	background-image: url("../detail_img/iOS_obj.png");
+}
+.con24{
+	background-image: url("../detail_img/iOS_try.jpg");
+}
+.con25{
+	background-image: url("../detail_img/iOS_ope_mod.jpg");
+}
+.con26{
+	background-image: url("../detail_img/iOS_core.jpg");
+}
+.con27{
+	background-image: url("../detail_img/iOS_ope_map.jpg");
+}
+.con28{
+	background-image: url("../detail_img/git_try.png");
+}
+.con29{
+	background-image: url("../detail_img/git_real.png");
+}
+.con30{
+	background-image: url("../detail_img/git_real2.png");
+}
+.con31{
+	background-image: url("../detail_img/git_master.jpg");
+}
+.con32{
+	background-image: url("../detail_img/db_try.jpg");
+}
+.con33{
+	background-image: url("../detail_img/db_sql.jpg");
+}
+.con34{
+	background-image: url("../detail_img/db_magic.jpg");
+}*/
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+}
+@media only screen and (min-width: 320px) and (max-width: 420px){
+	iframe{
+		width: 270px;
+	}
+}
+.col-xs-6, .col-md-6{
+	padding-left: 0px;
+  padding-right: 0px;
+}
+img{
+	transform: scale(0.8);
+}
+h4{
+	    text-align: center;
+}
+button{
+    margin: auto;
+}
+.border{
+	border: 1px dotted grey;
+	background-color: #e9eaea;
+	padding-left: 20px;
+}
