@@ -314,7 +314,10 @@ header{
     text-decoration: none;
     background-color: #c1cfde;
                     }
-
+.active2{
+    background-color: #c1cfde;
+    color: black;
+}
 @media screen and (max-width: 500px){
     h3 {
     font-size: 35px;

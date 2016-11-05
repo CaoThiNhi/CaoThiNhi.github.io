@@ -1,8 +1,9 @@
 .avata{
 	
 }
-.tm {
+#user {
 	background-color: white;
+	border-radius: 10px; 
 }
 .list-group-item {
 	border:none;
@@ -22,4 +23,13 @@
 }
 #tt {
 	text-align: center;
+}
+.form-control{
+	width: 70%;
+}
+.col-sm-9{
+	text-align: center;
+}
+.col-sm-offset-6 {
+    margin-left: 40%;
 }
