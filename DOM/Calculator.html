@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/body.css" />
+</head>
+<body>
+
+<div class="container">
+  <h2>Calculator</h2>
+             
+  <table class="table table-bordered bang">
+    
+    <tbody>
+      <tr >
+        <td colspan="5"><input id="input" type="text"> </input></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="btn btn-primary" onclick="binhphuong(input.value)" value="" >x <sup>2</sup> </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="giaithua(input.value)" value="!" > ! </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="canbachai(input.value)" value="√" > √ </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value=input.value.slice(0,input.value.length-1)" > DEL </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value=this.value" value=""> AC </button></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="7" > 7 </button> </td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="8" > 8 </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="9" > 9 </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="(" > ( </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value=")" > ) </button></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="4"> 4 </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="5"> 5 </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="6"> 6 </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="*" > * </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="/" > / </button></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="1"> 1 </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="2" > 2 </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="3" > 3 </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="+" > + </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="-"> - </button></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button id="db" type="button" class="btn btn-primary" onclick="input.value+=this.value" value="0"> 0 </button></td>
+        
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="%" > % </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value+=this.value" value="." > . </button></td>
+        <td><button type="button" class="btn btn-primary" onclick="input.value=eval(input.value)" value ="="> = </button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script>
+      function giaithua(x){
+        var equal = 1;
+        for(var i=1;i<=x;i++){
+          equal*=i;
+        }
+        input.value=equal;
+      }
+
+      function binhphuong(x){
+        input.value=x*x;
+      }
+
+      function canbachai(x){
+        input.value=Math.sqrt(x);
+      }
+    </script>
+</body>
+</html>
